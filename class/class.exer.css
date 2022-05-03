@@ -22,7 +22,7 @@
         color:purple
     }
     /*  */
-     post a{
+     .post a{
      color:purple    
      }
 /*  */
@@ -47,6 +47,7 @@
     h2::first-letter{
         font-size: 50px;;
     }
+    /*  */
     p::first-line{
         color:green;
     }

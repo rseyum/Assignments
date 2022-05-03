@@ -1,3 +1,14 @@
+/*we use "." to target an element based on class name and
+"#" to target an element based on id attribute
+color is property name and after ":" the right side is the 
+value of what color we want to give
+background-color is a property name as well
+rgba=> r stands for red
+       g stands for green
+       b stands for blue
+       a stands for alpha based on its value it changes transparency 
+       the combination of those three colors produce different colors.
+  */
 .cri{
 color:crimson ;
 }
