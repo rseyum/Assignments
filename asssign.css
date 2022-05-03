@@ -15,3 +15,12 @@ color:rgba(255, 255, 0, 0.523);
     color:red;
 
 }
+#yes{
+    background-color:green;
+    color:white;
+}
+#no{
+    background-color:red;
+    color:white;
+
+}
