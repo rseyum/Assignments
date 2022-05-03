@@ -21,14 +21,21 @@
     .tag{
         color:purple
     }
-. post a{
+     post a{
  color:purple    
-}
+     }
 /*  */
-footer >a {
+     footer >a {
 
-color: orange;
+     color: orange;
     }
-    .cimson{
-        
+    a [href*="google"]{
+        color:darkorange
+    }
+    button:hover{
+        background-color: red;
+        color:aquamarine;
+    }
+    .post button:active{
+        background-color: green;;
     }
