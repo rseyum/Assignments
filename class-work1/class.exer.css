@@ -1,53 +1,71 @@
-
+     /* body is an element selector ,and it is gonna affect 
+     all the contents with in the body , here i am giving 
+     beige color to the body.
+      */
     body{
         background-color: beige;
     }
-    /*  */
+    /* button is an element selector, which is used to target all the 
+    button elements here is gonna affects all the buttons unless they 
+    are overriden by id selectors ,class selector or any other means.
+    so here we are  resizing the font size of the button text  */
     button{
         font-size: 30px;;
     }
-    /*  */
+    /*this selector is targeting all h1 and h2 elements
+     that are inside the body so here any text inside the 
+     h1 and h2 tag is given crimson color   */
     h1,h2{
         color:crimson;
     }
     /*  */
-    signwell{
-        /*  */
+       #signup{
+        /*  id selectors are usually working by matching an element
+         based on the value of the element,s id attribute , id element is
+          unique,symbolized with hash or pound (#) followed by the id of 
+          the element so here the button with id signup is given color blue
+           and pink for the  background color.   */
         background-color: pink;
         color: blue;
 
     }
-    /*  */
-    .tag{
-        color:purple
+     /*  */
+          .tag{
+           color:purple
     }
-    /*  */
-     .post a{
-     color:purple    
-     }
-/*  */
-     footer >a {
+       /*  */
+         .post a {
+       color:hotpink;   
+    }
+        /*  */
 
-     color: orange;
-    }
-    /*  */
-    a [href*="google"]{
-        color:darkorange
-    }
-    /*  */
-    button:hover{
+       .sec{
+        color:green;
+           }
+        /*  */
+       footer >a {
+
+         color: orange;
+               }
+         /*  */
+          a [href*="google"]{
+            color:darkorange
+              }
+         /*  */
+       button:hover{
         background-color: red;
         color:aquamarine;
-    }
-    /*  */
-    .post button:active{
+         }
+       /*  */
+         .post button:active{
         background-color: green;;
-    }
+                             }
     /*  */
-    h2::first-letter{
+         h2::first-letter{
         font-size: 50px;;
-    }
+                          }
     /*  */
     p::first-line{
         color:green;
     }
+ 
