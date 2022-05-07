@@ -1,6 +1,7 @@
 #schools> a{
 color:rgba(19, 83, 7, 0.79);
 }
+/* the decendant selectors matches all selectors that are descendants of a specified element  */
 header>a {
 font-size: 30px;
 color: rgba(232, 8, 8, 0.763);

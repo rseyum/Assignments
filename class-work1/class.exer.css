@@ -43,13 +43,13 @@
         color:green;
            }
         /*  */
-       footer >a {
+       footer > a {
 
          color: orange;
                }
          /*  */
-          a [href*="google"]{
-            color:darkorange
+          a[href*="google"]{
+            color:darkorange;
               }
          /*  */
        button:hover{
