@@ -1,35 +1,44 @@
-/*we use "." to target an element based on class name and
-"#" to target an element based on id attribute
-color is property name and after ":" the right side is the 
+/*
+we use "." to target an element based on the class name and
+"#" to target an element based on the id attribute
+color is the property name, and after ":" the right side is the 
 value of what color we want to give
 background-color is a property name as well
 rgba=> r stands for red
        g stands for green
        b stands for blue
-       a stands for alpha based on its value it changes transparency 
-       the combination of those three colors produce different colors.
+       a stands for alpha, which changes transparency depending on its value. 
+       Combining those three colors produces diverse colors.
   */
+
+  /* cri class with property color of crimpson */
 .cri{
 color:crimson ;
 }
+ /* gree class with property color of darkgreen */
 .gree{
 color:darkgreen;
 }
+ /* yell class with property color of rgb(153,205,50,0.685 */
 .yell{
 color:rgba(153, 205, 50, 0.685)
 }
+ /* bur class with property color of  rgb(255,166,0,0.879)*/
 .bur{
 color:rgba(255, 166, 0, 0.879)
 
 }
+ /* red class with property color of red */
 .red{
 color:red;
 
 }
+ /* yes Id with property color of green */
 #yes{
 background-color:green;
 color:white;
 }
+ /* no Id with property color of red*/
 #no{
 background-color:red;
 color:white;
