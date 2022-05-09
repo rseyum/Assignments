@@ -1,85 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Selectors</title>
-    <!-- link connects the HTML with the external CSS file we are specifying file name class.exer.css -->
-    <link rel="stylesheet" href="class.exer.css" />
-  </head>
-  <body>
-    <!-- nav is grouping the elements  -->
-    <nav>
-      <label for="search">Search</label>
-      <input type="text" placeholder="Search" id="search" />
-
-      <input type="password" placeholder="Enter Password" />
-      <button>Log In</button>
-      <button id="signup">Sign Up</button>
-    </nav>
-    <!--  -->
-    <main>
-      <h1>This is a Message Board</h1>
-      <section class="post">
-        <span>Posted by  <a href="12345">/ SoonerFan1</a> </span>
-        <h2>
-          Oklahoma is a 9-3 team once they move to the
-          <span class="sec">SEC</span>
-        </h2>
-        <button class="post button">+Vote</button>
-        <hr />
-      </section>
-
-      <section class="post">
-        <span>Posted by <a href="129854">/ TxasFan1</a> </span>
-        <h2>
-          Texas is going to struggle also in the <span class="sec">SEC!</span>
-        </h2>
-        <button>+Vote</button>
-      </section>
-      <hr />
-      <section class="post">
-        <span>Posted by <a href="1124554">/ LSUFan</a> </span>
-        <h2>
-          Brian Kelly is going to strugle with his pass happy offense in the <span class="sec">SEC!</span>
-        </h2>
-        <button>+Vote</button>
-        <p>
-        But I must explain to you how all this mistaken idea of reprobating
-        pleasure and extolling pain arose. To do so, I will give you a complete
-        account of the system, and expound the actual teachings of the great
-        explorer of the truth, the master-builder of human happiness. No one
-        rejects, dislikes or avoids pleasure itself, because it is pleasure, but
-        because those who do not know how to pursue pleasure rationally
-        encounter consequences that are extremely painful. Nor again is there
-        anyone who loves or pursues or desires to obtain pain of itself, because
-        it is pain, but occasionally circumstances occur in which toil and pain
-        can procure him some great pleasure. To take a trivial example, which of
-        us ever undertakes laborious physical exercise, except to obtain
-      </p>
-      </section>
-      <hr />
-    </main>
-
-    <footer class="r">
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>CSS Selectors</title>
+      <!-- link connects the HTML with the external CSS file we are specifying file name class.exer.css -->
+      <link rel="stylesheet" href="class.exer.css" />
+    </head>
+    <body>
+      <!-- 
+        I have labels for each input field and button element in the nave tag I have two 
+        input fields and two buttons for login and Signup.
+      -->
       <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="https://www.google.com">Google</a>
-          </li>
-        </ul>
-     
+        <label for="search">Search</label>
+        <input type="text" placeholder="Search" id="search" />
+
+        <input type="password" placeholder="Enter Password" />
+        <button>Log In</button>
+        <button id="signup">Sign Up</button>
       </nav>
-      <a href="www.nintendo.com">Link to Ninetendo</a>
-    </footer>
-  </body>
-</html>
+      <!--  -->
+      <main>
+        <h1>This is a Message Board</h1>
+        <section class="post">
+          <span>Posted by <a href="12345">/ SoonerFan1</a> </span>
+          <h2>
+            Oklahoma is a 9-3 team once they move to the
+            <span class="sec">SEC</span>
+          </h2>
+          <button class="post button">+Vote</button>
+          <hr />
+        </section>
+<!--  -->
+        <section class="post">
+          <span>Posted by <a href="129854">/ TxasFan1</a> </span>
+          <h2>
+            Texas is going to struggle also in the <span class="sec">SEC!</span>
+          </h2>
+          <button>+Vote</button>
+        </section>
+        <hr />
+        <section class="post">
+          <span>Posted by <a href="1124554">/ LSUFan</a> </span>
+          <h2>
+            Brian Kelly is going to strugle with his pass happy offense in the
+            <span class="sec">SEC!</span>
+          </h2>
+          <button>+Vote</button>
+          <p>
+            But I must explain to you how all this mistaken idea of reprobating
+            pleasure and extolling pain arose. To do so, I will give you a
+            complete account of the system, and expound the actual teachings of
+            the great explorer of the truth, the master-builder of human
+            happiness. No one rejects, dislikes or avoids pleasure itself, because
+            it is pleasure, but because those who do not know how to pursue
+            pleasure rationally encounter consequences that are extremely painful.
+            Nor again is there anyone who loves or pursues or desires to obtain
+            pain of itself, because it is pain, but occasionally circumstances
+            occur in which toil and pain can procure him some great pleasure. To
+            take a trivial example, which of us ever undertakes laborious physical
+            exercise, except to obtain
+          </p>
+        </section>
+        <hr />
+      </main>
+
+      <footer class="r">
+        <nav>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="https://www.google.com">Google</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="www.nintendo.com">Link to Ninetendo</a>
+      </footer>
+    </body>
+  </html>

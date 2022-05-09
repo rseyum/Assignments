@@ -29,42 +29,47 @@
         color: blue;
 
     }
-     /*  */
+     /* this tag class with propory color of purple */
           .tag{
            color:purple
     }
-       /*  */
+       /* this a descendant selector class post with a child anchor propory color of purple */
          .post a {
        color:hotpink;   
     }
-        /*  */
+        /* this sec class with propory color of green */
 
        .sec{
         color:green;
            }
-        /*  */
+        /* this Descendant selector which selects all anchor  with propory color of purple */
        footer > a {
 
          color: orange;
                }
-         /*  */
+         /*
+         attribute selector looks for an anchor tag targets 
+         a link href that contains "google" and specifing the color  to darkorange
+         */
           a[href*="google"]{
             color:darkorange;
               }
-         /*  */
+         /* here on hover teh button color changes the background to red and color to aquamarine */
        button:hover{
         background-color: red;
         color:aquamarine;
          }
-       /*  */
+       /* 
+       active selector is used to select and style the active link we are setting the background to green 
+       */
          .post button:active{
         background-color: green;;
                              }
-    /*  */
+    /*pseudo element to change the first letter of the h2 header to 50px */
          h2::first-letter{
         font-size: 50px;;
                           }
-    /*  */
+    /*pseudo element  to change the first line of the first paragraph to green color*/
     p::first-line{
         color:green;
     }
