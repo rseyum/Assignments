@@ -1,6 +1,6 @@
      /* body is an element selector ,and it is gonna affect 
        all the contents with in the body , here i am giving 
-       beige color to the body.
+       abeige color to the body.
       */
     body{
         background-color: beige;
@@ -14,7 +14,7 @@
     }
     /*this selector is targeting all h1 and h2 elements
      that are inside the body so here any text inside the 
-     h1 and h2 tag is given crimson color (color property of red).  */
+     h1 and h2 tag is given crimson color (color property of red). */
     h1,h2{
         color:crimson;
     }
