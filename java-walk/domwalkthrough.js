@@ -121,7 +121,7 @@ for (let i = 10; i > 0; i--) {
 // let lastItem = document.querySelector('.list-group-item:last-child');
 // lastItem.style.color = 'pink';
 
-let titles = document.querySelectorAll('.title');
+var titles = document.querySelectorAll('.title');
 console.log(titles);
 
 titles[0].textContent = 'Hello Eduardo';
