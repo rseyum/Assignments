@@ -32,27 +32,27 @@
     //GetElementByClassName use variable object to declare list items, also utilizing arrays to locate more specific items w/in the class
     // console.log(items);returns all items with the className "list-group-item" in the document
     // console.log(items[0]);//returns the first item listed in the array
-    // items[0].textContent = "Hello, World!";// the content of first index of the array is set to Hello,World!
-    // items[0].style.fontWeight = 'bold';//the style of the content of the first index of the array is bold
-    // items[0].style.backgroundColor = 'white';//the style of the content of the first index of the array is set background of white
-    // items[0].textContent = "Oooop -Coleman Love";//the content of first index of the array is set to Oooop -Coleman Love
-    // items[0].style.color = "brown";// the style of the content of the first index of the array  is set to brown color
+    // items[0].textContent = "Hello, World!";// the content of first element of the array is set to Hello,World!
+    // items[0].style.fontWeight = 'bold';//the style of the content of the first element of the array is bold
+    // items[0].style.backgroundColor = 'white';//the style of the content of the first element of the array is set background of white
+    // items[0].textContent = "Oooop -Coleman Love";//the content of first element of the array is set to Oooop -Coleman Love
+    // items[0].style.color = "brown";// the style of the content of the first element of the array  is set to brown color
 
     /////////////////////////////////////////////////////////////////////////////////////
 
     // items[1].textContent = "Bye"; //the content of first index of the array is set to Bye
-    // items[1].style.fontweight="bold" //the style of the content of the first index of the array is bold
-    // items[1].style.backgroundColor="yellow" //the style of the content of the first index of the array is set background of yellow
-    // items[1].style.textContent="Alpha Kappa Alpha" //the content of first index of the array is set to Alpha Kappa Alpha
-    // items[1].style.Color="green" // the style of the content of the first index of the array  is set to green color
+    // items[1].style.fontweight="bold" //the style of the content of the first element of the array is bold
+    // items[1].style.backgroundColor="yellow" //the style of the content of the first element of the array is set background of yellow
+    // items[1].style.textContent="Alpha Kappa Alpha" //the content of first element of the array is set to Alpha Kappa Alpha
+    // items[1].style.Color="green" // the style of the content of the first element of the array  is set to green color
 
     /////////////////////////////////////////////////////////////////////////////////
 
-    // items[2].textContent = "Hi"; //the content of  index of the array is set to Hi
-    // items[2].style.fontWeight = 'bold'; //the style of the content of the second index of the array is bold
-    // items[2].style.backgroundColor = 'blue'; //the style of the content of the second index of the array is set background of blue
-    // items[2].textContent = "Zeela Zelda Zelda";  //the content of second index of the array is set to Zeela Zelda Zelda
-    // items[2].style.color = "green"; the style of the content of the second index of the array  is set to green color
+    // items[2].textContent = "Hi"; //the content of the array is set to Hi
+    // items[2].style.fontWeight = 'bold'; //the style of the content of the third element of the array is bold
+    // items[2].style.backgroundColor = 'blue'; //the style of the content of the third element of the array is set background of blue
+    // items[2].textContent = "Zeela Zelda Zelda";  //the content of third element of the array is set to Zeela Zelda Zelda
+    // items[2].style.color = "green"; the style of the content of the third element of the array  is set to green color
 
     /////////////////////////////////////////////////////////////////////////////////////
 
@@ -76,9 +76,9 @@
     // console.log(tag);
     // console.log(tag[1]); // returns the value at index of 1 
     // tag[1].textContent = "Hello 2"; // changes the text to Hello 2
-    // tag[1].style.fontWeight = 'bold'; // fontwieght is set to bold
-    // tag[1].style.backgroundColor = 'crimson'; // the background color is set to crimson color
-    // tag[1].style.color = 'white'; // set to white color
+    // tag[1].style.fontWeight = 'bold'; // fontwieght of the second element is set to bold
+    // tag[1].style.backgroundColor = 'crimson'; // the background color of the second element is set to crimson color
+    // tag[1].style.color = 'white'; // the second element of set to white color
 
     // //////////////////////////////////////////////////////////////////
 
@@ -104,11 +104,11 @@
     // querySelector returns all element 
     // that that matches ewith a specifed  css selector and the querySelector method can only used to acess
     // a single element
-    //let odd = document.querySelectorAll('li:nth-child(odd)');
+    //let odd = document.querySelectorAll('li:nth-child(odd)'); // this selector matches every element that's the nth child of its parent
     //let even = document.querySelectorAll('li:nth-child(even)');
     //for (var i =0; i < odd.length; i++){
-        //odd[i].style.backgroundColor = 'grey';
-        //even[i].style.backgroundColor = 'green';
+        //odd[i].style.backgroundColor = 'grey'; 
+        //even[i].style.backgroundColor = 'green'; 
         //even[i].style.color = 'whitesmoke'; 
     //}
     //here we are styling based on the number we listed is given green and grey color 
