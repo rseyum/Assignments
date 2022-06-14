@@ -38,11 +38,11 @@
 
         /////////////////////////////////////////////////////////////////////////////////////
 
-        // items[1].textContent = "Bye"; //the content of first index of the array is set to Bye
-        // items[1].style.fontweight="bold" //the style of the content of the first element of the array is bold
-        // items[1].style.backgroundColor="yellow" //the style of the content of the first element of the array is set background of yellow
-        // items[1].style.textContent="Alpha Kappa Alpha" //the content of first element of the array is set to Alpha Kappa Alpha
-        // items[1].style.Color="green" // the style of the content of the first element of the array  is set to green color
+        // items[1].textContent = "Bye"; //the content of second index of the array is set to Bye
+        // items[1].style.fontweight="bold" //the style of the content of the second element of the array is bold
+        // items[1].style.backgroundColor="yellow" //the style of the content of the second element of the array is set background of yellow
+        // items[1].style.textContent="Alpha Kappa Alpha" //the content of second element of the array is set to Alpha Kappa Alpha
+        // items[1].style.Color="green" // the style of the content of the second element of the array  is set to green color
 
         /////////////////////////////////////////////////////////////////////////////////
 
@@ -98,8 +98,9 @@
 
         //////////////////////////////////////////////////////////////////////////
 
-        //titles[0].textContent = 'Is this Rahel';// the value of the content will be Is this rahel
-        // querySelector returns all element 
+         /*the value of the content will be "Is this rahel"
+         querySelector returns all element*/
+         //titles[0].textContent = 'Is this Rahel'; 
         // that that matches ewith a specifed  css selector and the querySelector method can only used to acess
         // a single element
         //let odd = document.querySelectorAll('li:nth-child(odd)'); // this selector matches every element that's the nth child of its parent
