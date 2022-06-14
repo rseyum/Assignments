@@ -30,33 +30,33 @@
         //GetElementByClassName use variable object to declare list items, also utilizing arrays to locate more specific items w/in the class
         // console.log(items);returns all items with the className "list-group-item" in the document
         // console.log(items[0]);//returns the first item listed in the array
-        // items[0].textContent = "Hello, World!";// the content of first element of the array is set to Hello,World!
-        // items[0].style.fontWeight = 'bold';//the style of the content of the first element of the array is bold
-        // items[0].style.backgroundColor = 'white';//the style of the content of the first element of the array is set background of white
-        // items[0].textContent = "Oooop -Coleman Love";//the content of first element of the array is set to Oooop -Coleman Love
-        // items[0].style.color = "brown";// the style of the content of the first element of the array  is set to brown color
+        // items[0].textContent = "Hello, World!";// the content of the first index element of the array is set to Hello,World!
+        // items[0].style.fontWeight = 'bold';//the style of the content of the first index element is bold
+        // items[0].style.backgroundColor = 'white';//the style of the content of the first index element of the array is set background of white
+        // items[0].textContent = "Oooop -Coleman Love";//the content of first index element is set to Oooop -Coleman Love
+        // items[0].style.color = "brown";// the style of the content of the first index element is set to brown color
 
         /////////////////////////////////////////////////////////////////////////////////////
 
         // items[1].textContent = "Bye"; //the content of second index of the array is set to Bye
-        // items[1].style.fontweight="bold" //the style of the content of the second element of the array is bold
-        // items[1].style.backgroundColor="yellow" //the style of the content of the second element of the array is set background of yellow
-        // items[1].style.textContent="Alpha Kappa Alpha" //the content of second element of the array is set to Alpha Kappa Alpha
-        // items[1].style.Color="green" // the style of the content of the second element of the array  is set to green color
+        // items[1].style.fontweight="bold" //the style of the content of the second index element of the array is bold
+        // items[1].style.backgroundColor="yellow" //the style of the content of the second index element of the array is set background of yellow
+        // items[1].style.textContent="Alpha Kappa Alpha" //the content of second index element of the array is set to Alpha Kappa Alpha
+        // items[1].style.Color="green" // the style of the content of the second index element of the array  is set to green color
 
         /////////////////////////////////////////////////////////////////////////////////
 
         // items[2].textContent = "Hi"; //the content of the array is set to Hi
-        // items[2].style.fontWeight = 'bold'; //the style of the content of the third element of the array is bold
-        // items[2].style.backgroundColor = 'blue'; //the style of the content of the third element of the array is set background of blue
-        // items[2].textContent = "Zeela Zelda Zelda";  //the content of third element of the array is set to Zeela Zelda Zelda
-        // items[2].style.color = "green"; the style of the content of the third element of the array  is set to green color
+        // items[2].style.fontWeight = 'bold'; //the style of the content of the third index element of the array is bold
+        // items[2].style.backgroundColor = 'blue'; //the style of the content of the third indexelement of the array is set background of blue
+        // items[2].textContent = "Zeela Zelda Zelda";  //the content of third index element of the array is set to Zeela Zelda Zelda
+        // items[2].style.color = "green"; the style of the content of the third index element of the array  is set to green color
 
         /////////////////////////////////////////////////////////////////////////////////////
 
         // for loop that decrements from 100 to 0.
-        //for (let i = 0; i < items.length; i++) {
-        //     items[i].style.backgroundColor = 'grey'; // background color is set to grey
+        //for (let i = 0; i < items.length; i++) {// here we are using for loop to change background color,text-content and color to avoid repeatition.
+        //     items[i].style.backgroundColor = 'grey'; //background color is set to grey
         //     items[i].textContent = "I Changed The List"; // the text content is changed to I Changed The List
         //     items[i].style.color = 'green'; // color of items is set to green color
         // }
@@ -66,7 +66,7 @@
         // const myDiamonds = ['Snacky','Scary','Piggy','Pinchie','Lily','IttyBitty','Nibbles','Lanky','Kibbles'];
         // for(let i = 8; i < myDiamonds.length; i++){
         // console.log(i, myDiamonds[i]);
-        //}for loop helps in  iteration , so here we will have list of arrays starting from the index 8 
+        //}//for loop helps in  iteration , so here we will have list of arrays starting from the index 8 
 
         /////////////////////////////////////////////////////////////////////////////////////
 
@@ -76,14 +76,14 @@
         // tag[1].textContent = "Hello 2"; // changes the text to Hello 2
         // tag[1].style.fontWeight = 'bold'; // fontwieght of the second element is set to bold
         // tag[1].style.backgroundColor = 'crimson'; // the background color of the second element is set to crimson color
-        // tag[1].style.color = 'white'; // the second element of set to white color
+        // tag[1].style.color = 'white'; // the content of the second index element of set to white color
 
         // //////////////////////////////////////////////////////////////////
 
         // let header = document.querySelector('#main-header');
         // header.style.borderBottom = 'solid 4px hotpink'; // changing the attrubute with the border bottom to red color
         // let input = document.querySelector('input'); // creates input 
-        // input.value = "Changed the Input Box Text"; // giving the value of input "Changed the Input Box Text"
+        // input.value = "Changed the Input Box Text"; // setting the value of input "Changed the Input Box Text"
 
         ////////////////////////////////////////////////////////////////////////
 
