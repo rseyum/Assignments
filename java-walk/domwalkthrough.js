@@ -14,9 +14,7 @@
     // console.log(document.links);//Returns all <area> and <a> elements that have a href attribute
     // console.log(document.images); //Returns the <head> element
 
-
     ///////////////////////////////////////////////////////////////////////////////////
-
 
     //console.log(document.getElementById('header-title')); //Find an element by element id
     //Creation of an object variable using  the document fncunction 
@@ -68,7 +66,7 @@
     // const myDiamonds = ['Snacky','Scary','Piggy','Pinchie','Lily','IttyBitty','Nibbles','Lanky','Kibbles'];
     // for(let i = 8; i < myDiamonds.length; i++){
     // console.log(i, myDiamonds[i]);
-    //}for loop helps in  iteration , so here we will have list of arrays starding from the index 8 
+    //}for loop helps in  iteration , so here we will have list of arrays starting from the index 8 
 
     /////////////////////////////////////////////////////////////////////////////////////
 
