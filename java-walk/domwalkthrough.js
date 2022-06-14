@@ -29,7 +29,7 @@
         // let items = document.getElementsByClassName("list-group-item");//Find elements by class name "list-group-item"
         //GetElementByClassName use variable object to declare list items, also utilizing arrays to locate more specific items w/in the class
         // console.log(items);returns all items with the className "list-group-item" in the document
-        // console.log(items[0]);//returns the first item listed in the array
+        // console.log(items[0]);//returns the content of the first index listed in the array
         // items[0].textContent = "Hello, World!";// the content of the first index element of the array is set to Hello,World!
         // items[0].style.fontWeight = 'bold';//the style of the content of the first index element is bold
         // items[0].style.backgroundColor = 'white';//the style of the content of the first index element of the array is set background of white
@@ -46,7 +46,7 @@
 
         /////////////////////////////////////////////////////////////////////////////////
 
-        // items[2].textContent = "Hi"; //the content of the array is set to Hi
+        // items[2].textContent = "Hi"; //the content of the third index of the array is set to Hi
         // items[2].style.fontWeight = 'bold'; //the style of the content of the third index element of the array is bold
         // items[2].style.backgroundColor = 'blue'; //the style of the content of the third indexelement of the array is set background of blue
         // items[2].textContent = "Zeela Zelda Zelda";  //the content of third index element of the array is set to Zeela Zelda Zelda
