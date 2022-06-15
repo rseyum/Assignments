@@ -3,16 +3,16 @@
         // console.log(document.domain);// shows IP adress
         // console.log(document.URL); //shows URL  
         // console.log(document.title);//shows the title of the document
-        // console.log(document.doctype);//Returns the document's doctype
-        // console.log(document.head);//Returns the <head> element
-        // console.log(document.body);//Returns the all the listed in the body element 
+        // console.log(document.doctype);//Shows the document's doctype
+        // console.log(document.head);//Shows the <head> element
+        // console.log(document.body);//Shows the all the listed in the body element 
         // console.log(document.all);// show every tree structure in the document
         // console.log(document.all[03]);calling line 3 in the document
         // document.all[10].textContent = 'We Just Changed The Header';// manipulates js using document attribute to change the header
         // Document Object Model can scan the tree for elements
-        // console.log(document.forms);//will returns a collection of all forms with in a particular page(Returns all <form> elements) how many we have
-        // console.log(document.links);//Returns all <area> and <a> elements that have a href attribute
-        // console.log(document.images); //Returns the <head> element
+        // console.log(document.forms);//will Shows a collection of all forms with in a particular page(Shows all <form> elements) how many we have
+        // console.log(document.links);//Shows all elements that have a href attribute
+        // console.log(document.images); //Shows the <head> element
 
         ///////////////////////////////////////////////////////////////////////////////////
 
@@ -28,8 +28,8 @@
 
         // let items = document.getElementsByClassName("list-group-item");//Find elements by class name "list-group-item"
         //GetElementByClassName use variable object to declare list items, also utilizing arrays to locate more specific items w/in the class
-        // console.log(items);returns all items with the className "list-group-item" in the document
-        // console.log(items[0]);//returns the content of the first index listed in the array
+        // console.log(items);Shows all items with the className "list-group-item" in the document
+        // console.log(items[0]);//Shows the content of the first index listed in the array
         // items[0].textContent = "Hello, World!";// the content of the first index element of the array is set to Hello,World!
         // items[0].style.fontWeight = 'bold';//the style of the content of the first index element is bold
         // items[0].style.backgroundColor = 'white';//the style of the content of the first index element of the array is set background of white
@@ -72,7 +72,7 @@
 
         // let tag = document.getElementsByTagName('li');//Find elements by tag name
         // console.log(tag);
-        // console.log(tag[1]); // returns the value at index of 1 
+        // console.log(tag[1]); // Shows the value at index of 1 
         // tag[1].textContent = "Hello 2"; // changes the text to Hello 2
         // tag[1].style.fontWeight = 'bold'; // fontwieght of the second element is set to bold
         // tag[1].style.backgroundColor = 'crimson'; // the background color of the second element is set to crimson color
@@ -99,7 +99,7 @@
         //////////////////////////////////////////////////////////////////////////
 
          /*the value of the content will be "Is this rahel"
-         querySelector returns all element*/
+         querySelector Shows all element*/
          //titles[0].textContent = 'Is this Rahel'; 
         // that that matches ewith a specifed  css selector and the querySelector method can only used to acess
         // a single element
