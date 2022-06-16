@@ -54,6 +54,14 @@
 
         /////////////////////////////////////////////////////////////////////////////////////
 
+        // items[3].textContent = "bye"; //the content of the fourth index of the array is set to bye
+        // items[3].style.fontWeight = 'bold'; //the style of the content of the fourth index element of the array is bold
+        // items[3].style.backgroundColor = 'blue'; //the style of the content of the fourth indexelement of the array is set background of blue
+        // items[3].textContent = "Zeela Zelda ";  //the content of fourth index element of the array is set to Zeela Zelda 
+        // items[3].style.color = "gold"; the style of the content of the fourth index element of the array  is set to gold color
+
+       /////////////////////////////////////////////////////////////////////////////
+       
         // for loop that decrements from 100 to 0.
         //for (let i = 0; i < items.length; i++) {// here we are using for loop to change background color,text-content and color to avoid repeatition.
         //     items[i].style.backgroundColor = 'grey'; //background color is set to grey
